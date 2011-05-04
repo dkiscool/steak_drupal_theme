@@ -45,6 +45,10 @@
                 <div class="section_w590">
 
                     <div class="section_w590_content">
+                        <?php print $breadcrumb; ?>
+                        <?php print $help; ?>
+                         <?php print $messages; ?>
+       <?php print $tabs; ?>
 <?php print $content; ?>
                            <div class="popular_meal_box margin_r_60">
                                  <?php print $special_two?>
@@ -86,12 +90,7 @@
     <div id="footer">
 
 	     <ul class="footer_menu">
-           <li><a href="#" class="current">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="#" >About</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="#">Contact</a></li>
+           <?php  print theme('links', $primary_links);  ?>
         </ul>
 
     	Copyright © 2048 <a href="#">Your Company Name</a> | <a href="" target="">Website Templates</a> by <a href="" target="">Free CSS Templates</a>
@@ -104,25 +103,7 @@
 </div>
 </div>
 
-       <?php print $site_name; ?>
-       <?php print $title; ?>
-       <?php print $mission; ?>
-       <?php print $breadcrumb; ?>
-
-       <?php print $header; ?>
-       <?php print $content_top; ?>
-               
-       <?php print $messages; ?>
-       <?php print $tabs; ?>
-       <?php print $content; ?>
-       
-       <?php print $content_bottom; ?>
-       <?php  print theme('links', $primary_links);  ?>
-       <?php  print theme('links', $secondary_links); ?>
-       <?php print $left; ?>
-       <?php print $right; ?>
-
-       <?php print $help; ?>
+    
 
        <?php print $closure; ?>
   </body>
