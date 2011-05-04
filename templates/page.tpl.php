@@ -47,17 +47,13 @@
                     <div class="section_w590_content">
 <?php print $content; ?>
                            <div class="popular_meal_box margin_r_60">
-                        	<a href="#"><img src="sites/all/themes/steak/images/image_01.jpg" alt="image" /></a>
-                          <h3>New Dish One</h3>
-                            <p>Duis convallis, enim in scelerisque faucibus, mi libero interdum dolor, nec vestibulum turpis justo eget nulla.</p>
-                            <div class="price">Price: $30</div> <a href="#">Order</a>
+                                 <?php print $special_two?>
+                        	
                         </div>
 
       <div class="popular_meal_box">
-                        	<a href="#"><img src="sites/all/themes/steak/images/image_02.jpg" alt="image" /></a>
-                  <h3>Special Dish Two</h3>
-                            <p>Mauris ac diam quis magna rutrum adipiscing sed eget odio. Donec in metus elit, sed interdum magna</p>
-                            <div class="price">Price: $30</div> <a href="#">Order</a>
+          <?php print $special_two?>
+                        	
                         </div>
                     </div>
                 </div>
