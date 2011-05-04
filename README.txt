@@ -1,0 +1,1 @@
+This is a demo of converting a html css theme to Drupal 6 theme
