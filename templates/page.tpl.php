@@ -48,12 +48,11 @@
                         <?php print $breadcrumb; ?>
                         <?php print $help; ?>
                          <?php print $messages; ?>
-       <?php print $tabs; ?>
-<?php print $content; ?>
-                           <div class="popular_meal_box margin_r_60">
-                                 <?php print $special_two?>
-                        	
-                        </div>
+                        <?php print $tabs; ?>
+                         <?php print $content; ?>
+                                 <div class="popular_meal_box margin_r_60">
+                                 <?php print $special_one?>
+                        	 </div>
 
       <div class="popular_meal_box">
           <?php print $special_two?>
