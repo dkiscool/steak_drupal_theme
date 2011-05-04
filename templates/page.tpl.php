@@ -65,28 +65,12 @@
             <div id="side_column">
 
             		<div class="side_column_section">
-                   	  <h4>Categories</h4>
-                 		 <ul class="category_list">
-                        	<li><a href="#">Lorem ipsum dolor</a></li>
-                            <li><a href="#">Donec velit mi</a></li>
-                            <li><a href="#">Sed malesuada urna</a></li>
-                            <li><a href="#">Ut aliquet eros</a></li>
-                            <li><a href="#">Praesent leo nisi</a></li>
-                            <li><a href="#">Vestibulum porta</a></li>
-                        <li><a href="#">Donec elementum</a></li>
-                        </ul>
+                            <?php print $right; ?>
+                   	 
               </div>
 
                     <div class="side_column_section">
-                    	<h4>Our Address</h4>
-                        <a href="http://maps.google.com" target="_blank"><img src="sites/all/themes/steak/images/map.jpg" alt="map" /></a>
-          				<p>
-                         	101, Lorem ipsum,<br />
-                            Sit amet, Consectetur, 10280<br /><br />
-                            Tel: 000-100-1020<br />
-          					Fax: 002-002-0320<br /><br />
-                            Email:<br /> <a href="#">info{at}yourcompany.com</a>
-                        </p>
+                    	
               </div>
 
             	<div class="side_column_bottom"></div>
