@@ -31,10 +31,8 @@
     <div id="banner">
 
         <div id="banner_section">
-             <?php //print $banner; ?>
-          	<h2>Lorem ipsum dolor sit amet, consectetur </h2>
-            <p> Cras auctor, arcu sit amet auctor luctus, lectus sem rhoncus felis, dignissim convallis nulla quam ac dolor.</p>
-
+             <?php print $banner; ?>
+          	
 		</div> <!-- banner section -->
 
     </div> <!-- end of banner -->
@@ -43,13 +41,13 @@
         <div id="content">
 
         	<div id="main_column">
-
+                
                 <div class="section_w590">
 
-                    <h2>Special Delicious Steaks</h2>
+                    
 
                     <div class="section_w590_content">
-
+<?php print $content; ?>
                     	<p><a href="" target="">Steak   Template</a> is provided by <a href="" target="_parent">html</a> for everyone. You may download, modify and apply this template for your websites. Credits go to <a href="" target="">photovaco.com</a>  and <a href="" target="">pdphoto.org</a> for photos used in this layout.</p>
 
                		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam vitae ipsum vulputate varius vitae semper nunc. Quisque eget elit quis augue pharetra feugiat. Suspendisse turpis arcu, dignissim ac laoreet a, condimentum in massa.</p>

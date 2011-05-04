@@ -17,6 +17,7 @@
   <div class="content clear-block">
     <?php print $content ?>
   </div>
+    <div class="cleaner_h50"></div>
 
   <div class="clear-block">
     <div class="meta">
