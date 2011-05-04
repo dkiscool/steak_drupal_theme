@@ -44,32 +44,9 @@
                 
                 <div class="section_w590">
 
-                    
-
                     <div class="section_w590_content">
 <?php print $content; ?>
-                    	<p><a href="" target="">Steak   Template</a> is provided by <a href="" target="_parent">html</a> for everyone. You may download, modify and apply this template for your websites. Credits go to <a href="" target="">photovaco.com</a>  and <a href="" target="">pdphoto.org</a> for photos used in this layout.</p>
-
-               		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam vitae ipsum vulputate varius vitae semper nunc. Quisque eget elit quis augue pharetra feugiat. Suspendisse turpis arcu, dignissim ac laoreet a, condimentum in massa.</p>
-                        <div class="button_01 fr"><a href="#">More</a></div>
-
-                    </div>
-
-                </div>
-
-                <div class="cleaner_h50"></div>
-
-                <div class="section_w590">
-
-                    <h2>New Sweet Dishes</h2>
-
-              <div class="section_w590_content">
-
-                    	<p>Fusce porttitor venenatis posuere. Donec aliquam venenatis tortor, in rutrum odio aliquam at. Nam rhoncus leo at urna facilisis ac viverra quam accumsan. Nulla scelerisque laoreet tincidunt. </p>
-
-                        <div class="cleaner_h20"></div>
-
-                        <div class="popular_meal_box margin_r_60">
+                           <div class="popular_meal_box margin_r_60">
                         	<a href="#"><img src="sites/all/themes/steak/images/image_01.jpg" alt="image" /></a>
                           <h3>New Dish One</h3>
                             <p>Duis convallis, enim in scelerisque faucibus, mi libero interdum dolor, nec vestibulum turpis justo eget nulla.</p>
@@ -82,10 +59,10 @@
                             <p>Mauris ac diam quis magna rutrum adipiscing sed eget odio. Donec in metus elit, sed interdum magna</p>
                             <div class="price">Price: $30</div> <a href="#">Order</a>
                         </div>
-
-                  </div>
-
+                    </div>
                 </div>
+
+              
 
             </div> <!-- end of main column -->
 
