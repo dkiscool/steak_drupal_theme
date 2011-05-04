@@ -17,19 +17,12 @@
 <div id="container">
 
 	<div id="menu">
-    	<ul>
-            <li><a href="#" class="current">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="#" >About</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    	 <?php  print theme('links', $primary_links);  ?>
 
         <div id="site_title">
             <h1>
-                <a href="" target="_parent">Steak House
-                <span>Great Place to Eat</span></a>
+                <a href="" target="_parent"><?php print $site_name; ?>
+                <span><?php print $site_slogan; ?></span></a>
             </h1>
         </div>
 
@@ -38,6 +31,7 @@
     <div id="banner">
 
         <div id="banner_section">
+             <?php //print $banner; ?>
           	<h2>Lorem ipsum dolor sit amet, consectetur </h2>
             <p> Cras auctor, arcu sit amet auctor luctus, lectus sem rhoncus felis, dignissim convallis nulla quam ac dolor.</p>
 
